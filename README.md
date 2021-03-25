@@ -2,7 +2,7 @@
 ## 要求三
 ## 使用 INSERT 指令新增一筆資料到 user 資料表中,這筆資料的 username 和password 欄位必須是 ply。接著繼續新增至少 4 筆隨意的資料。
 ### SQL 指令: 
-![image]()
+![image](https://github.com/Natalia0604/Assignment_week5/blob/main/week5/%E5%BB%BA%E7%AB%8B%E8%B3%87%E6%96%99%E5%BA%AB%E5%92%8C%E8%B3%87%E6%96%99%E8%A1%A8.png)
 ## 使用 SELECT 指令取得所有在 user 資料表中的使用者資料。
 
 ## 使用 SELECT 指令取得 user 資料表中總共有幾筆資料。
