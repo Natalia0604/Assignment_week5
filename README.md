@@ -25,7 +25,7 @@
 ![image](https://github.com/Natalia0604/Assignment_week5/blob/main/week5/username_ply.png)
 
 ## 7.使用 SELECT 指令取得欄位 username 是 ply、且欄位 password 也是 ply 的資料。
-### SQL 指令:SELECT＊　FROM user WHERE (usename='ply' AND password='ply');
+### SQL 指令:SELECT＊ FROM user WHERE (usename='ply' AND password='ply');
 ![image](https://github.com/Natalia0604/Assignment_week5/blob/main/week5/usernameply_passwordply.png)
 
 ## 8.使用 UPDATE 指令更新欄位 username 是 ply 的使用者資料,將資料中的 name 欄位改成【丁滿】。
