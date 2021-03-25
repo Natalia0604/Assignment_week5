@@ -17,7 +17,8 @@
 ![image](https://github.com/Natalia0604/Assignment_week5/blob/main/week5/time%20%E8%BF%91%E5%88%B0%E9%81%A0%E6%8E%92%E5%BA%8F.png)
 
 ## 5.使用 SELECT 指令取得 user 資料表中第 2 ~ 4 共三筆資料,並按照 time 欄位,由近到遠排序。
-### SQL 指令:
+### SQL 指令: SELECT * FROM user ORDER BY time DESC LIMIT 1,3;
+![image](https://github.com/Natalia0604/Assignment_week5/blob/main/week5/time2to4.png)
 
 ## 6.使用 SELECT 指令取得欄位 username 是 ply 的使用者資料。
 ### SQL 指令: SELECT * FROM user WHERE username='ply';
@@ -32,8 +33,8 @@
 ![image](https://github.com/Natalia0604/Assignment_week5/blob/main/week5/%E4%B8%81%E6%BB%BF.png)
 
 ## 9.使用 DELETE 指令刪除所有在 user 資料表中的資料。
-### SQL 指令:
-
+### SQL 指令: delete from user;
+![image](https://github.com/Natalia0604/Assignment_week5/blob/main/week5/old/%E5%88%AA%E9%99%A4%E6%89%80%E6%9C%89%E8%B3%87%E6%96%99.png)
 ## 要求四
 ## 10.使用 SELECT 搭配 JOIN 的語法,取得所有留言,資料中須包含留言會員的姓名。
 ### SQL 指令:SELECT user.name, message.content FROM user INNER JOIN message ON message.user_id = user.id;
